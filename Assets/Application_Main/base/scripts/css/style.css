@@ -1,0 +1,135 @@
+body
+{
+    height: 100%;
+    width: 100%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+    background-color: #f7f7f7;
+}
+
+.context-menu
+{
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: rgba(0, 0, 0, 0.25) 1px solid;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,.25);
+    display: none;
+}
+.context-menu-options
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.context-menu-option
+{
+}
+.context-menu-option:hover
+{
+    color: #8d8d8d;
+    background-color: rgba(11, 94, 215, 0.35);
+}
+.context-menu-option-icon
+{
+}
+.context-menu-option .context-menu-option-icon
+{
+    color: #8d8d8d;
+}
+.context-menu-option:hover .context-menu-option-icon
+{
+    color: #111111;
+}
+.context-menu-option-link
+{
+    text-decoration: none;
+}
+.context-menu-option .context-menu-option-link
+{
+    color: #8d8d8d;
+}
+.context-menu-option:hover .context-menu-option-link
+{
+    color: #111111;
+}
+
+.bgcolor_nocolor
+{
+    background-color: transparent !important;
+}
+.bgcolor_f7f7f7
+{
+    background-color: #f7f7f7 !important;
+}
+.bgcolor_dce1fd
+{
+    background-color: #dce1fd !important;
+}
+.bgcolor_89cff0
+{
+    background-color: #89cff0 !important;
+}
+.bgcolor_ed4337
+{
+    background-color: #ed4337 !important;
+}
+
+.tmpcolor_111111
+{
+    color: #111111 !important;
+}
+.tmpcolor_8d8d8d
+{
+    color: #8d8d8d !important;
+}
+.tmpcolor_ed4337
+{
+    color: #ed4337 !important;
+}
+.tmpcolor_f3f7f7
+{
+    color: #f3f7f7 !important;
+}
+.tmpcolor_03c41e
+{
+    color: #03c41e !important;
+}
+@font-face
+{
+    font-family: "SansationRegular";
+    src: url('../../fonts/Sansation_Regular.ttf');
+}
+.Arial
+{
+    font-family: "Arial", serif;
+}
+.SansationRegular
+{
+    font-family: "SansationRegular", serif;
+}
+.SegoeUI
+{
+    font-family: "Segoe UI", serif;
+}
+.Calibri
+{
+    font-family: Calibri, serif;
+}
+.DebugRed
+{
+    background-color: red !important;
+}
+.DebugBlue
+{
+    background-color: blue !important;
+}
+.DebugGreen
+{
+    background-color: green !important;
+}
