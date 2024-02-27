@@ -1,0 +1,35 @@
+textarea
+{
+    border: none;
+    resize: none;
+    background-color: transparent;
+}
+textarea:focus
+{
+    outline: none;
+}
+select
+{
+    border: none !important;
+    outline: none;
+    background-color: transparent;
+}
+option
+{
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+#BackBTN
+{
+    color: #000000;
+    text-decoration: none;
+}
+#content
+{
+    min-height: 80% !important;
+}
+#ProductsListPNL
+{
+    border: 1px solid #000;
+}
